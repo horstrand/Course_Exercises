@@ -7,14 +7,14 @@ var range = 0...100
 
 for idx in range{
     if idx % 5 == 0{
-        print("\(idx) Bingo!!!")
+        print("\(idx) #Bingo!!!")
     }
     if idx % 2 == 0{
-        print("\(idx) par!!!")
+        print("\(idx) #par!!!")
     }else{
-        print("\(idx) impar!!!")
+        print("\(idx) #impar!!!")
     }
     if idx >= 30 && idx <= 40{
-        print("\(idx) Viva Swift!!!")
+        print("\(idx) #Viva Swift!!!")
     }
 }
